@@ -1,4 +1,10 @@
-body {
-  text-allign:centre;
-  background-color: NavajoWhite
-}
+body {background-color: NavajoWhite;}
+
+h1, p {text-align: center;}
+
+h1 {font-family: Papyrus; font-size: 50px; border-style: double;}
+
+h2 {font-size: 20px; text-align: center;}
+
+h3 {float: left;}
+h4{float: right}
