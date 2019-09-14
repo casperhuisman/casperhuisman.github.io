@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="menustyles.css">
+    <title>My test page</title>    
+  </head>
+
+      <body>        
+          <fieldset class="fieldset_whole">
+              <form action="/my-handling-form-page" method="post">
+                  <h1>Dado Tea Lunch Special</h1>
+                  <p>
+                    Monday through Friday<br>
+                    11:00 – 15:00<br>
+                    €9,95 (excl. BTW)
+                  </p>
+                  <p>
+                    Includes sandwich, snack and drink.
+                  </p>
+                      <fieldset class="fieldset_part">
+                        <legend>Order information</legend>                            
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name"><br> 
+                            <input type="radio" id="Here" name="location">
+                            <label for="Here">Here</label><br>
+                            <input type="radio" id="To go" name="location">
+                            <label for="To go">To go</label><br>                          
+                      </fieldset>
+                      <fieldset class="fieldset_part">
+                        <legend>Sandwich</legend>
+                        <p>Monday<br>
+                          <input type="radio" id="Monday(a)" name="Sandwich">
+                          <label for="Monday(a)">Tomato Mozarella</label><br>
+                          <input type="radio" id="Monday(b)" name="Sandwich">
+                          <label for="Monday(b)">Chicken Salad</label></p>
+                        <p>Tuesday<br>
+                          <input type="radio" id="Tuesday(a)" name="Sandwich">
+                          <label for="Tuesday(a)">Greek salad Wrap</label><br>
+                          <input type="radio" id="Tuesday(b)" name="Sandwich">
+                          <label for="Tuesday(b)">Toto wrap</label></p>
+                        <p>Wednesday<br>
+                          <input type="radio" id="Wednesday(a)" name="Sandwich">
+                          <label for="Wednesday(a)">Red Pepper Hummus</label><br>
+                          <input type="radio" id="Wednesday(b)" name="Sandwich">
+                          <label for="Wednesday(b)">Roasted Turkey</label></p>
+                        <p>Thursday<br>
+                          <input type="radio" id="Thursday(a)" name="Sandwich">
+                          <label for="Thursday(a)">Carrot Ginger Hummus</label><br>
+                          <input type="radio" id="Thursday(b)" name="Sandwich">
+                          <label for="Thursday(b)">Egg Salad</label></p>
+                         <p>Friday<br>
+                          <input type="radio" id="Friday(a)" name="Sandwich">
+                          <label for="Friday(a)">Dado Wrap</label><br>
+                          <input type="radio" id="Friday(b)" name="Sandwich">
+                          <label for="Friday(b)">Tuna Salad</label></p>
+                          <input type="checkbox" id="extra" name="Glutenfree">
+                          <label for="extra">€0,75 extra for Gluten free bread</label>
+                      </fieldset>
+                      <fieldset class="fieldset_part">
+                          <legend>Snack</legend>
+                          <input type="radio" id="Snack1" name="Snack">
+                          <label for="Snack1">Apple</label><br>
+                          <input type="radio" id="Snack2" name="Snack">
+                          <label for="Snack2">Banana</label><br>
+                          <input type="radio" id="Snack3" name="Snack">
+                          <label for="Snack3">Chips</label><br>                          
+                      </fieldset>
+                      <fieldset class="fieldset_part">
+                          <legend>Drink</legend>
+                          <select name="Drinks">
+                            <optgroup label="Coffee">
+                              <option>Hot coffee</option>
+                              <option>Iced coffee</option>
+                            </optgroup>
+                            <optgroup label="Tea">
+                              <option>Green tea</option>
+                              <option>Black tea</option>
+                              <option>Iced tea</option>
+                              <option>Purple tea</option>
+                            </optgroup>                                                      
+                          </select>   
+                          <p><input type="checkbox" id="extra" name="Drink">
+                          <label for="extra">€0,75 extra for large drink</label></p>                     
+                      </fieldset>
+                      <div class="button">
+                        <button type="submit">Place order</button>
+                      </div>                          
+              </form>
+          </fieldset>
+      </body>
+</html>  
