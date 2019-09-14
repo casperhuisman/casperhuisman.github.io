@@ -1,0 +1,16 @@
+h1 {
+    font-size: large
+}
+form {
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 500px;
+    padding: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+body {
+    background-image: url("https://mitusmeatlessfood.com/wp-content/uploads/2018/04/5-x-lunchbroodjes.png")
+}
+
