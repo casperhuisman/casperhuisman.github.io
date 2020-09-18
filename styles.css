@@ -1,11 +1,105 @@
-body {background-color: NavajoWhite;}
+body {background-color: white;}
 
 h1, p {text-align: center;}
 
-h1 {font-family: Papyrus; font-size: 50px; border-style: double;}
+h1 {font-family: Papyrus; font-size: 50px;}
 
 h2 {font-size: 20px; text-align: center;}
 h5 {font-size: 20px; text-align: center;}
 
 h3 {float: left;}
 h4{float: right}
+
+#logo {
+    position: fixed;
+    top: 3%;
+    left: 5%;
+}
+
+#gitlogo {
+    position: fixed;
+    top: 3%;
+    right: 5%;
+}
+
+#kopje {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    height: 150px;
+    width: 400px;
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    margin-left: -200px;
+}
+
+
+#keuzemenu {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    height: 600px; 
+    width: 400px;
+    position:fixed;
+    top: 200px;
+    left: 10px;
+}
+
+#collage {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    height: 600px; 
+    width: 400px;
+    position:fixed;
+    top: 200px;
+    right: 10px;
+}
+
+#collage h1 {
+    border-radius: 50%;
+
+}
+
+#inleiding {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 200px;
+    left: 440px;
+    right: 440px;
+
+}
+
+#inleiding h1 {
+    text-decoration: underline
+}
+
+#recensies {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 420px;
+    left: 440px;
+    right: 440px;
+
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg")
+}
+
+li{
+    margin: 20px 0;
+}
