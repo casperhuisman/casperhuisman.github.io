@@ -1,0 +1,81 @@
+#vrijetijd {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#kopje {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    height: 120px;
+    width: 400px;
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    margin-left: -200px;
+}
+
+#kopje h1 {
+    text-align: center;
+}
+
+#logo {
+    position: fixed;
+    top: 3%;
+    left: 5%;
+}
+
+#gitlogo {
+    position: fixed;
+    top: 3%;
+    right: 5%;
+}
+
+#muziek {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 160px;
+    left: 20px;
+}
+
+#sport {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    margin: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 160px;
+    left: 400px;
+
+}
+
+#games {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 160px;
+    right: 20px;
+
+}
+
+#goodzo2 {
+    position: fixed;
+    top: 700px;
+}
+
+
+body {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg")
+}
