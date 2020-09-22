@@ -18,6 +18,7 @@ body {
 
 #kopje h1 {
     text-align: center;
+    text-decoration: underline;
 }
 
 #logo {
@@ -46,6 +47,9 @@ body {
     padding-bottom: 10px;
 }
 
+#dom h1 {
+    text-decoration: underline
+}
 #dom p {
     position: fixed;
     left: 250px;
@@ -66,10 +70,14 @@ body {
     padding-bottom: 10px;
 }
 
+#speelklok h1 {
+    text-decoration: underline
+}
+
 #speelklok p {
     position:fixed;
-    top: 550px;
-    left: 250px
+    top: 545px;
+    left: 292px
 }
 
 #huiswerk {
@@ -79,21 +87,24 @@ body {
     border-color: grey;
     border-radius: 5px 20px 5px;
     position: fixed;
-    top: 680px;
+    top: 710px;
     left: 20px;
     padding-right: 900px;
     padding-left: 10px;
     padding-bottom: 10px;
 }
 
+#huiswerk h1 {
+    text-decoration: underline
+}
 #huiswerk p {
     position: fixed;
-    top: 750px;
-    left: 250px;
+    top: 780px;
+    left: 245px;
 }
 
 #goodzo3 {
     position: fixed;
-    right: 40px;
+    right: 90px;
     bottom: 40px;
 }
