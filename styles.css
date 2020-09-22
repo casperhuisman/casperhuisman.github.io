@@ -28,6 +28,7 @@ h1, p {text-align: center;}
     top: 3%;
     left: 50%;
     margin-left: -200px;
+    
 }
 
 
@@ -46,7 +47,7 @@ h1, p {text-align: center;}
 
 #keuzemenu h2 {
     position: fixed;
-    top: 400px;
+    top: 450px;
     left: 60px;
 }
 
@@ -79,6 +80,7 @@ h1, p {text-align: center;}
     top: 200px;
     left: 440px;
     right: 440px;
+    padding: 5px;
 
 }
 
@@ -92,7 +94,7 @@ h1, p {text-align: center;}
     border-color: grey;
     border-radius: 5px 20px 5px;
     position: fixed;
-    top: 420px;
+    top: 430px;
     left: 440px;
     right: 440px;
 
