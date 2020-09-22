@@ -10,12 +10,12 @@
     border-color: grey;
     border-radius: 5px 20px 5px;
     height: 120px;
-    width: 400px;
+    width: 300px;
     background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
     position: fixed;
     top: 3%;
-    left: 50%;
-    margin-left: -200px;
+    left: 40%;
+    
 }
 
 #kopje h1 {
@@ -42,7 +42,12 @@
     border-radius: 5px 20px 5px;
     position: fixed;
     top: 160px;
-    left: 20px;
+    left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#muziek h1 {
+    text-align: center;
 }
 
 #sport {
@@ -54,8 +59,30 @@
     border-radius: 5px 20px 5px;
     position: fixed;
     top: 160px;
-    left: 400px;
+    left: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 350px;
+}
+#sport h1 {
+    text-align: center;
+}
 
+#geschiedenis {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    margin: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 160px;
+    left: 50%;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#geschiedenis h1 {
+    text-align: center;
 }
 
 #games {
@@ -66,8 +93,13 @@
     border-radius: 5px 20px 5px;
     position: fixed;
     top: 160px;
-    right: 20px;
-
+    left: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+#games h1 {
+    text-align: center;
 }
 
 #goodzo2 {
@@ -78,4 +110,11 @@
 
 body {
     background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg")
+}
+
+h2 {
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
+    
 }
