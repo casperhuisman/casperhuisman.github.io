@@ -1,0 +1,99 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+}
+
+#kopje {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    height: 120px;
+    width: 400px;
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    margin-left: -200px;
+}
+
+#kopje h1 {
+    text-align: center;
+}
+
+#logo {
+    position: fixed;
+    top: 3%;
+    left: 5%;
+}
+
+#gitlogo {
+    position: fixed;
+    top: 3%;
+    right: 5%;
+}
+
+#dom {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 160px;
+    left: 20px;
+    padding-right: 1100px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#dom p {
+    position: fixed;
+    left: 250px;
+    top: 230px;
+}
+
+#speelklok {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 470px;
+    left: 20px;
+    padding-right: 1040px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#speelklok p {
+    position:fixed;
+    top: 550px;
+    left: 250px
+}
+
+#huiswerk {
+    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 680px;
+    left: 20px;
+    padding-right: 900px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#huiswerk p {
+    position: fixed;
+    top: 750px;
+    left: 250px;
+}
+
+#goodzo3 {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
