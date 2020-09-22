@@ -2,13 +2,7 @@ body {background-color: white;}
 
 h1, p {text-align: center;}
 
-h1 {font-family: Papyrus; font-size: 50px;}
 
-h2 {font-size: 20px; text-align: center;}
-h5 {font-size: 20px; text-align: center;}
-
-h3 {float: left;}
-h4{float: right}
 
 #logo {
     position: fixed;
@@ -50,6 +44,12 @@ h4{float: right}
     left: 10px;
 }
 
+#keuzemenu h2 {
+    position: fixed;
+    top: 400px;
+    left: 60px;
+}
+
 #collage {
     border-style: solid;
     border-width: 3px;
@@ -63,10 +63,12 @@ h4{float: right}
     right: 10px;
 }
 
-#collage h1 {
-    border-radius: 50%;
-
+#collage h2 {
+    position: fixed;
+    right: 70px;
 }
+
+
 
 #inleiding {
     border-style: solid;
