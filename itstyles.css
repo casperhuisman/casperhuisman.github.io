@@ -1,0 +1,76 @@
+body {
+    background-image: url("static/background.jpg");
+}
+
+#logo {
+    position: fixed;
+    top: 3%;
+    left: 5%;
+}
+
+#gitlogo {
+    position: fixed;
+    top: 3%;
+    right: 5%;
+}
+
+#kopje {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    height: 150px;
+    width: 400px;
+    background-image: url("static/background.jpg");
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    margin-left: -200px;
+}
+#kopje h1 {
+    text-align: center;
+}
+
+#tekst {
+    background-image: url("static/background.jpg");
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#Elektra {
+    position: fixed;
+    top: 600px;
+    left: 30px;
+}
+
+#Rhesus {
+    position: fixed;
+    top: 600px;
+    left: 650px;
+}
+
+#Histories {
+    position: fixed;
+    top: 600px;
+    right: 30px;
+}
+
+#Tabellen {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 5px 20px 5px;
+    padding: 10px;
+    background-image: url("static/background.jpg");
+    position: fixed;
+    top: 200px;
+    left: 50%;
+}

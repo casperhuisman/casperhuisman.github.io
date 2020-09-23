@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
 }
 
 #kopje {
@@ -9,7 +9,7 @@ body {
     border-radius: 5px 20px 5px;
     height: 120px;
     width: 400px;
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     position: fixed;
     top: 3%;
     left: 50%;
@@ -34,7 +34,7 @@ body {
 }
 
 #dom {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     border-style: solid;
     border-width: 3px;
     border-color: grey;
@@ -57,7 +57,7 @@ body {
 }
 
 #speelklok {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     border-style: solid;
     border-width: 3px;
     border-color: grey;
@@ -81,7 +81,7 @@ body {
 }
 
 #huiswerk {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     border-style: solid;
     border-width: 3px;
     border-color: grey;
