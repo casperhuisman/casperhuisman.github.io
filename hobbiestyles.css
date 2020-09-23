@@ -11,7 +11,7 @@
     border-radius: 5px 20px 5px;
     height: 120px;
     width: 300px;
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     position: fixed;
     top: 3%;
     left: 40%;
@@ -35,7 +35,7 @@
 }
 
 #muziek {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     border-style: solid;
     border-width: 3px;
     border-color: grey;
@@ -51,7 +51,7 @@
 }
 
 #sport {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     margin: auto;
     border-style: solid;
     border-width: 3px;
@@ -69,7 +69,7 @@
 }
 
 #geschiedenis {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     margin: auto;
     border-style: solid;
     border-width: 3px;
@@ -86,7 +86,7 @@
 }
 
 #games {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg");
+    background-image: url("static/background.jpg");
     border-style: solid;
     border-width: 3px;
     border-color: grey;
@@ -109,7 +109,7 @@
 
 
 body {
-    background-image: url("https://i.pinimg.com/originals/48/e9/8b/48e98b4e893d9c9988c9f114997a94ee.jpg")
+    background-image: url("static/background.jpg")
 }
 
 h2 {
