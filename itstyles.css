@@ -74,3 +74,10 @@ body {
     top: 200px;
     left: 50%;
 }
+
+#link {
+    position: fixed;
+    top: 200px;
+    right:100px;
+
+}
